@@ -1,0 +1,6 @@
+numpy
+numba
+scipy
+shapely
+pillow
+pygame-ce

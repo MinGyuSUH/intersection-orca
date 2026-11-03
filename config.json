@@ -1,0 +1,12 @@
+{
+  "map": "cmpp_shelf",
+  "num_amrs": 20,
+  "seed": 0,
+  "dt": 0.1,
+  "amr_length": 10.0,
+  "amr_width": 10.0,
+  "max_speed": 14.37,
+  "accel": 5.39,
+  "max_angular_velocity": 0.7854,
+  "max_angular_accel": 0.7854
+}

@@ -10,11 +10,22 @@ LiDAR sees.
 ## Quick start
 
 ```
+git clone https://github.com/MinGyuSUH/intersection-orca.git
+cd intersection-orca
 pip install -r requirements.txt
+```
+
+Then:
+
+```
 python main.py                                  # viewer
 python main.py run 20 0 300                     # headless: 20 robots, seed 0, 300 s
 python main.py run 20 0 300 LiDAR-ORCA          # same with the other algorithm
 ```
+
+To keep the packages separate from other projects, create a virtual environment first
+(`python -m venv .venv`, then `.venv\Scripts\activate` on Windows or `source .venv/bin/activate`
+on macOS/Linux) and run `pip install` inside it.
 
 Tested with Python 3.12. The numba kernels compile on the first run (about 15 s) and are cached
 afterwards.
